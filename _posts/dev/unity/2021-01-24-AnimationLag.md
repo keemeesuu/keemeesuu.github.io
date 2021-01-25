@@ -5,7 +5,7 @@ date: 2021-01-23 18:00:20
 title: "스프라이트 아틀라스"
 description: "2D Sprite Atlas"
 subject: dev
-categories: [ unity ]
+categories: [ Unity ]
 tags: [ unity, awake, start, update, lateupdate ]
 ---
 

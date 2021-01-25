@@ -5,7 +5,7 @@ date: 2020-12-24 18:00:20
 title: "Awake, Start 차이점"
 description: "Awake / start"
 subject: dev
-categories: [ unity ]
+categories: [ Unity ]
 tags: [ unity, awake, start ]
 ---
 

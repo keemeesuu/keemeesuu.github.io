@@ -5,7 +5,7 @@ date: 2020-12-28 18:00:20
 title: "이벤트 함수의 실행 순서(Awake, Start, Update, LateUpdate)"
 description: "Awake, Start, Update, LateUpdate"
 subject: dev
-categories: [ unity ]
+categories: [ Unity ]
 tags: [ unity, awake, start, update, lateupdate ]
 ---
 

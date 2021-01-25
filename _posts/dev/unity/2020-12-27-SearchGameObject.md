@@ -5,7 +5,7 @@ date: 2020-12-27 18:00:20
 title: "특정 GameObject 찾는방법"
 description: "How to Search GameObject"
 subject: dev
-categories: [ unity ]
+categories: [ Unity ]
 tags: [ unity, GameObject, search ]
 ---
 
