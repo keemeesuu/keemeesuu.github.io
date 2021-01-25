@@ -252,6 +252,13 @@ nav {
 }
 
 .post {
+
+  .title {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
