@@ -16,6 +16,7 @@ tags: [ unity, awake, start, update, lateupdate ]
 
 Transition(State간의 화살표)을 연속적으로 태우면 애니메이션이 작동되지 않음
 
+<br>
 
 ### Animator - Parameters
 
