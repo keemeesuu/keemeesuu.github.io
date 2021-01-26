@@ -18,16 +18,14 @@ Transition(State간의 화살표)을 연속적으로 태우면 애니메이션�
 
 
 ```c#
+// Move Value
+h = Input.GetAxisRaw("Horizontal");
 
-    // Move Value
-    h = Input.GetAxisRaw("Horizontal");
-    
-    // Check Button Horizontal
-    bool h = Input.GetButtonDown("Horizontal");
+// Check Button Horizontal
+bool h = Input.GetButtonDown("Horizontal");
 
-    // Animation
-    anime.SetBook("isChnage", true);
-    anime.SetFloat("hAxisRaw", h)
-
+// Animation
+anime.SetBook("isChnage", true);
+anime.SetFloat("hAxisRaw", h)
 ```
 
