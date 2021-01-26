@@ -18,15 +18,33 @@ tags: [ unity, raycast, RaycastHit2D ]
 
 <br>
 
-### 2D 레이케이스트 예제
+### 탑다운 2D 레이케이스트 예제
 
 ```cs
 Vector3 dirVec;
+GameObject scanObject;
 
-void FixedUpdate(){
+
+void Update(){
+    // Direction
+    if(vDown && v == 1){
+        dirVec = Vector3.up;
+    }else if(vDown && v == -1){
+        dirVec = Vector3.down;
+    }else if(hDown && h == 1){
+        dirVec = Vector3.right;
+    }else if(hDown && h == -1){
+        dirVec = Vector3.left;
+    }
+    
     // Raycast
     Debug.DrawRay(rigid.position, dirVec * 0.7f, new Color(0,1,0));
     RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, dirVec, 0.7f, LayerMask.GetMask("Object"));
+
+    // Scan Object
+    if(Input.GetButtonDown("Jump") && scanObject != null){
+        Debug.Log("this is : " + scanObject.name);
+    }
 }
 ```
 
