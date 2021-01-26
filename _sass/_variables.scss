@@ -25,3 +25,10 @@ $georgia: Georgia, serif;
     @content;
   }
 }
+
+// Pc
+@mixin pc {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
