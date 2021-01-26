@@ -14,7 +14,7 @@ tags: [ unity, raycast, RaycastHit2D ]
 
 3차원 공간에서 어느 한 점(시작점)에서  Ray 를 정해진 방향으로 쏴 Ray 와 충돌 되는 객체를 구하는 방법이다.
 
-(/images/dev/unity-raycasting.jpg)
+![RaycastHit2D Physics2D.Raycast(Vector2 origin, Vector2 direction, float distance, int layerMask)](/images/dev/unity-raycasting.jpg "RaycastHit2D Physics2D.Raycast(Vector2 origin, Vector2 direction, float distance, int layerMask)")
 
 <br>
 
