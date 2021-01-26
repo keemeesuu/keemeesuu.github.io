@@ -39,6 +39,10 @@ Transition(State간의 화살표)을 연속적으로 태우면 애니메이션�
 ### cs
 
 ```c#
+// Move Value
+h = Input.GetAxisRaw("Horizontal");
+
+// Animation
 if(anime.GetFloat("hAxisRaw") != h){
     anime.SetBool("isChange", true);
     anime.SetFloat("hAxisRaw", h);
