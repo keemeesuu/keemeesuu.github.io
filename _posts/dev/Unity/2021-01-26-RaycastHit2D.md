@@ -20,7 +20,7 @@ tags: [ unity, raycast, RaycastHit2D ]
 
 ### 탑다운 2D 레이케이스트 예제
 
-```cs
+```c#
 Vector3 dirVec;
 GameObject scanObject;
 
