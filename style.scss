@@ -251,6 +251,11 @@ nav {
   border-bottom: none;
 }
 
+.posts .entry {
+  margin-bottom: 150px;
+}
+
+
 .post {
 
   .title {
@@ -258,11 +263,7 @@ nav {
     padding-bottom: 50px;
     margin-bottom: 50px;
   }
-
-  .entry {
-    margin-bottom: 150px;
-  }
-
+  
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
