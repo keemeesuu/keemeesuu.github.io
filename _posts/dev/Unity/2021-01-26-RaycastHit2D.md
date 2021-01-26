@@ -10,7 +10,7 @@ tags: [ unity, raycast, RaycastHit2D ]
 ---
 
 
-`Raycast` 와 `Raycast2D` 의 다른점은 `Z` 값을 사용하냐 사용하지 않느냐의 차이밖에 없다.
+`Raycast` 와 `Raycast2D` 의 다른점은 `Z` 축 값을 사용하냐 사용하지 않느냐의 차이밖에 없다.
 
 3차원 공간에서 어느 한 점(시작점)에서  `Ray` 를 정해진 방향으로 쏴 `Ray` 와 충돌 되는 객체를 구하는 방법이다.
 
