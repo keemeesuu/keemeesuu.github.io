@@ -17,15 +17,35 @@ tags: [ unity, awake, start, update, lateupdate ]
 Transition(State간의 화살표)을 연속적으로 태우면 애니메이션이 작동되지 않음
 
 
+### Animator - Parameters
+
+`(float)hAxisRaw` : 이동관련
+
+`(bool)isChange` : 체크가 최초로 실행되면 실행하게
+
+<br>
+
+### Inspector - Conditions
+
+왼쪽 기준
+
+`hAxisRaw` / Less / 0 
+
+`isChange` / true
+
+<br>
+
+### cs
+
 ```c#
-// Move Value
-h = Input.GetAxisRaw("Horizontal");
-
-// Check Button Horizontal
-bool h = Input.GetButtonDown("Horizontal");
-
-// Animation
-anime.SetBook("isChnage", true);
-anime.SetFloat("hAxisRaw", h)
+if(anime.GetFloat("hAxisRaw") != h){
+    anime.SetBool("isChange", true);
+    anime.SetFloat("hAxisRaw", h);
+}else{
+    anime.SetBool("isChange", false);
+}
 ```
+
+<br>
+
 
