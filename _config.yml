@@ -53,7 +53,7 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:categories/:title/
+permalink: /:title/
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -72,9 +72,6 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
-include:
-  - _pages
-  
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
@@ -87,10 +84,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
