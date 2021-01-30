@@ -24,7 +24,8 @@ https://abulaphiaa.wordpress.com/2011/10/25/heros-journey-original-form-of-story
 https://brunch.co.kr/@jcho/36
 
 ---
-
+<!--
 추가로 '끄적끄적' 이라는 카테고리에 내가 알게된 지식? 같은것들을 적어보자
 예시로
 https://m.blog.naver.com/PostList.nhn?blogId=yandina&logCode=0&categoryNo=7&currentPage=3
+-->
