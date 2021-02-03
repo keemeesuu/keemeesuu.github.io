@@ -73,6 +73,7 @@ void Update()
     left_Up = false;
     right_Up = false;
 }
+
 void FixedUpdate(){
     // Move
     Vector2 moveVec = isHorizonMove ? new Vector2(h, 0) : new Vector2(0, v);
