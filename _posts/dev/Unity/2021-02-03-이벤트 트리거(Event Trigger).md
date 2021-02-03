@@ -81,6 +81,11 @@ void FixedUpdate(){
 ```
 
 
+<span>![이미지](/images/dev/Screen Shot 2021-02-03 at 4.24.25 PM.png "move button"){: width="600px"}</span>
+<span>![이미지](/images/dev/Screen Shot 2021-02-03 at 4.24.38 PM.png "move button"){: width="600px"}</span>
+<span>![이미지](/images/dev/Screen Shot 2021-02-03 at 4.24.49 PM.png "move button"){: width="600px"}</span>
+
+
 <br>
 
 한번 클릭할거 같으면
