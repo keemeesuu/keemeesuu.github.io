@@ -129,15 +129,7 @@ public void ButtonUp(string type){
 <span>![이미지](/images/dev/Screen Shot 2021-02-03 at 4.24.49 PM.png "move button"){: width="300px"}</span>
 
 
-<br>
-
-한번 클릭할거 같으면
-
-`Button` -> Inspector -> `On Click()` 에다가 `Add` 하면된다.
-
-`On Click()` : ButtonDown + ButtonUp 한 세트
 
 
 
-
-[공식 레퍼런스](https://docs.unity3d.com/ScriptReference/GameObject-activeSelf.html){:target="_blank"}
+<!-- [공식 레퍼런스](https://docs.unity3d.com/ScriptReference/GameObject-activeSelf.html){:target="_blank"} -->
