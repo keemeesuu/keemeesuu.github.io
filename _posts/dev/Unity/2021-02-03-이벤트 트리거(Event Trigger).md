@@ -78,6 +78,49 @@ void FixedUpdate(){
     Vector2 moveVec = isHorizonMove ? new Vector2(h, 0) : new Vector2(0, v);
     rigid.velocity = moveVec * speed;
 }
+
+public void ButtonDown(string type){
+    switch(type){
+        case "U":
+            up_Value = 1;
+            up_Down = true;
+            break;
+        case "D":
+            down_Value = -1;
+            down_Down = true;
+            break;
+        case "L":
+            left_Value = -1;
+            left_Down = true;
+            break;
+        case "R":
+            right_Value = 1;
+            right_Down = true;
+            break;
+    }
+}
+
+public void ButtonUp(string type){
+    switch(type){
+        case "U":
+            up_Value = 0;
+            up_Up = true;
+            break;
+        case "D":
+            down_Value = 0;
+            down_Up = true;
+            break;
+        case "L":
+            left_Value = 0;
+            left_Up = true;
+            break;
+        case "R":
+            right_Value = 0;
+            right_Up = true;
+            break;
+    }
+}
+
 ```
 
 
