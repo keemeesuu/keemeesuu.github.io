@@ -24,8 +24,8 @@ calm colors의 게임들은 대부분 차분하며 힐링게임이다. 예로 ga
 같은 잔디를 보기만 해도 이렇게 다르다. 각각 어둡고, 밝은 초록색감, 칙칙한 파란색감이다 
 
 ![낮은채도](/images/Tip/Design/Screen Shot 2021-02-04 at 6.41.26 PM.png){: width="500px"}
-![높은채도](/images/Tip/Design/Screen Shot 2021-02-04 at 6.41.26 PM.png){: width="500px"}
-![파란색감](/images/Tip/Design/Screen Shot 2021-02-04 at 6.41.26 PM.png){: width="500px"}
+![높은채도](/images/Tip/Design/Screen Shot 2021-02-04 at 6.46.40 PM.png){: width="500px"}
+![파란색감](/images/Tip/Design/Screen Shot 2021-02-04 at 6.49.02 PM.png){: width="500px"}
 
 자신이 무언가를 생각하며 그 장면을 그리고 있는데 잘 안나올 경우 검색으로 뚜렷하게 그려낼 수 있다.
 
@@ -47,7 +47,7 @@ Pinterest로 그 사진의 것의 느낌을 내고 싶다면 작업창에 넣어
 <br>
 <br>
 
-[유튜브 참고](https://youtu.be/BVBiUnBUB8c){: target="_blank"}
+[자세한 설명 유튜브 참고](https://youtu.be/BVBiUnBUB8c){: target="_blank"}
 
 
 
