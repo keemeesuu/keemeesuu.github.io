@@ -4,9 +4,9 @@ comments: true
 date: 2021-02-04 15:00:20
 title: "Color Palette"
 # description: "Unity API"
-subject: dev
-categories: [ Unity ]
-tags: [ unity, EventTrigger, event, trigger, charging ]
+subject: color
+categories: [ Tip ]
+tags: [ tip, color, taplette, ]
 ---
 
 픽셀아트로 기록한다.
