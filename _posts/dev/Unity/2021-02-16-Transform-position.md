@@ -98,8 +98,12 @@ transform.position = new Vector3(0, 10, 0);
 
 <br>
 <br>
+<br>
+<br>
 
 
 [참고문헌](https://notyu.tistory.com/23){:target="_blank"}
+
 [공식 레퍼런스](https://docs.unity3d.com/ScriptReference/Transform-position.html){:target="_blank"}
+
 [Transform.Translate - 공식 레퍼런스](https://docs.unity3d.com/kr/530/ScriptReference/Transform.Translate.html){:target="_blank"}
