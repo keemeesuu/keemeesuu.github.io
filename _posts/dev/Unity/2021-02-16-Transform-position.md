@@ -51,6 +51,8 @@ void Update(){
 }
 ```
 
+<br>
+
 ## 1.3 transform.Translate()
 
 오브젝트의 transform의 Translate() 함수를 이용하여 이동을 구현한다.
@@ -72,7 +74,7 @@ void Update(){
 }
 ```
 
-
+<br>
 
 ## 1.4 절대적 이동
 
