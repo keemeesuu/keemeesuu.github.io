@@ -133,6 +133,7 @@ public class ObjectManager : MonoBehaviour
 ### 2. `ObjectManager` 호출 및 사용
 
 ```c#
+// Enemy.cs
 public class Enemy : MonoBehaviour 
 {
     public ObjectManager objectManager;
@@ -142,6 +143,7 @@ public class Enemy : MonoBehaviour
     }
 }
 
+// Item.cs
 public class Item : MonoBehaviour
 {
     public ObjectManager objectManager;
@@ -151,6 +153,7 @@ public class Item : MonoBehaviour
     }
 }
 
+// Player.cs
 public class Player : MonoBehaviour
 {
     public ObjectManager objectManager;
