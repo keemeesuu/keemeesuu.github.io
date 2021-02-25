@@ -133,5 +133,31 @@ public class ObjectManager : MonoBehaviour
 ### 2. `ObjectManager` 호출 및 사용
 
 ```c#
+public class Enemy : MonoBehaviour 
+{
+    public ObjectManager objectManager;
+
+    void Start(){
+        GameObject enemy = objectManager.MakeObj("Enemy");
+    }
+}
+
+public class Item : MonoBehaviour
+{
+    public ObjectManager objectManager;
+
+    void Start(){
+        GameObject item = objectManager.MakeObj("Item");
+    }
+}
+
+public class Player : MonoBehaviour
+{
+    public ObjectManager objectManager;
+
+    void Start(){
+        GameObject bullet = objectManager.MakeObj("BulletPlayer");
+    }
+}
 
 ```
