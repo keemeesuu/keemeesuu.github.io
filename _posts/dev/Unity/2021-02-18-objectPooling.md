@@ -21,10 +21,16 @@ tags: [ unity, objectPooling, position ]
 
 첫 로딩 시간 = 장면 배치 + 오브젝트 풀 생성
 
+<br>
 
-### 사용예제
+## 사용예제
 
 다양한 오브젝트풀링 기법이 있지만 간단한 예
+
+1. 오브젝트풀링을 관리할 `ObjectManager` 클래스
+2. 외부 오브젝트에서 오브젝트를 쓰기위한 클래스
+
+### 1. 오브젝트풀링을 관리할 `ObjectManager` 클래스
 
 ```c#
 public class ObjectManager : MonoBehaviour
@@ -44,11 +50,8 @@ public class ObjectManager : MonoBehaviour
 
     // 초기화 작업을 위한 함수
     void Awake(){
-        /*
-        * 초기화 작업
-        * 한번에 등장할 개수를 고려햐여 배열 길이를 할당해준다
-        * 첫 로딩 시간 = 장면배치 + 오브젝트 풀 생성
-        */
+        // 프리펩 사이즈 작업
+        // 한번에 등장할 개수를 고려햐여 배열 길이를 할당해준다
         enemy = new GameObject[10];
         item = new GameObject[10];
         bulletPlayer = new GameObject[10];
@@ -125,4 +128,10 @@ public class ObjectManager : MonoBehaviour
     }
 
 }
+```
+
+### 2. `ObjectManager` 호출 및 사용
+
+```c#
+
 ```
