@@ -13,7 +13,7 @@ pre.highlight {
 }
 
 code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font-family: Menlo, 'Bitstream Vera Sans Mono','Courier', monospace;
 }
 
 .post p .highlighter-rouge {
@@ -23,7 +23,6 @@ code {
   padding: 0.25em 0.5em;
   background-color: #eee;
 }
-.highlight { font-family: Menlo }
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
