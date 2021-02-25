@@ -4,7 +4,7 @@ comments: true
 date: 2021-02-16 21:00:20
 title: "transform.position, transform.translate"
 # description: "Unity API"
-subject: dev
+subject: unity
 categories: [ Unity ]
 tags: [ unity, transform, position ]
 ---

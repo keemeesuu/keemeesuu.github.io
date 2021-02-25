@@ -4,7 +4,7 @@ comments: true
 date: 2021-01-23 18:00:20
 title: "애니메이션 동작이 안될때"
 description: "2D Sprite Atlas"
-subject: dev
+subject: unity
 categories: [ Unity ]
 tags: [ unity, awake, start, update, lateupdate ]
 ---

@@ -4,7 +4,7 @@ comments: true
 date: 2021-01-26 18:00:20
 title: "Raycast(레이케스트)"
 description: "RaycastHit2D"
-subject: dev
+subject: unity
 categories: [ Unity ]
 tags: [ unity, raycast, RaycastHit2D ]
 ---

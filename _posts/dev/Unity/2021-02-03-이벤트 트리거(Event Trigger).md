@@ -4,7 +4,7 @@ comments: true
 date: 2021-02-03 15:00:20
 title: "PC, 모바일 이동버튼 구현 - 이벤트 트리거(Event Trigger)"
 # description: "Unity API"
-subject: dev
+subject: unity
 categories: [ Unity ]
 tags: [ unity, EventTrigger, event, trigger, charging ]
 ---
