@@ -157,6 +157,7 @@ public class Player : MonoBehaviour
 
     void Start(){
         GameObject bullet = objectManager.MakeObj("BulletPlayer");
+        // bullet.transform.position = transform.position;
     }
 }
 
