@@ -2,7 +2,7 @@
 layout: post
 comments: true
 date: 2021-02-18 21:00:20
-title: "오브젝트풀링(objectPooling) 사용예제"
+title: "오브젝트풀링(OBJECT POOLING)설명 및 간단한 사용예제"
 # description: "Unity API"
 subject: unity
 categories: [ Unity ]
