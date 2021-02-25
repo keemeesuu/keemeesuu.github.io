@@ -27,7 +27,6 @@ tags: [ unity, objectPooling, position ]
 다양한 오브젝트풀링 기법이 있지만 간단한 예
 
 ```c#
-
 public class ObjectManager : MonoBehaviour
 {
     // 프리펩 변수 선언
