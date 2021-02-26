@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.6 $helvetica;
   color: $darkGray;
 }
 
@@ -89,6 +89,10 @@ ul, ol {
 
 ul {
   list-style-type: disc;
+}
+
+ul li {
+  margin-bottom: 5px;
 }
 
 ol {
